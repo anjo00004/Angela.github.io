@@ -1,0 +1,83 @@
+<!-- File: portfolio.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Angela Nyangate John</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Reuse the same navigation -->
+  <nav class="bg-white shadow-md sticky top-0 z-10">
+    <div class="container mx-auto px-4 py-4 flex justify-between">
+      <a href="index.html" class="text-xl font-bold">AngelaNJohn</a>
+      <div class="space-x-4">
+        <a href="portfolio.html" class="underline">Portfolio</a>
+        <a href="blog.html" class="hover:underline">Blog</a>
+        <a href="resume.html" class="hover:underline">Resume</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container mx-auto py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Portfolio</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+      <!-- Project Card 1 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 1" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-xl mb-2">Project One</h3>
+          <p class="text-gray-600 text-sm">A brief description of Project One. This could describe the technologies used or the purpose of the project.</p>
+          <a href="https://github.com/yourusername/project-one" class="text-blue-600 hover:underline text-sm mt-2 block">View on GitHub</a>
+        </div>
+      </div>
+      <!-- Project Card 2 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 2" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-xl mb-2">Project Two</h3>
+          <p class="text-gray-600 text-sm">
+            A short description of Project Two. Talk about what this project does.</p>
+          <a href="https://github.com/yourusername/project-two" class="text-blue-600 hover:underline text-sm mt-2 block">View on GitHub</a>
+        </div>
+      </div>
+      <!-- Project Card 3 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-xl mb-2">Project Three</h3>
+          <p class="text-gray-600 text-sm">A short description of Project Three. Explain the main features or technologies.</p>
+          <a href="https://github.com/yourusername/project-three" class="text-blue-600 hover:underline text-sm mt-2 block">View on GitHub</a>
+        </div>
+      </div>
+      <!-- LLMRS Project Card -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/600x400" alt="LLMRS" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-xl mb-2">🤖 LLMRS: LLM-Based Recommender System</h3>
+          <p class="text-gray-600 text-sm">
+            We propose LLMRS, a zero-shot LLM-based recommender system designed to
+             provide personalized suggestions based on user context and
+            preferences using the product reviews to tailor suggestions, 
+            outperforming baseline models on software purchases.
+            </p>
+          <a href="https://github.com/igunduz/LLMRS" class="text-blue-600 hover:underline text-sm mt-2 block">View on GitHub</a>
+        </div>
+      </div>
+      <!-- LoDIA Project Card -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/600x400" alt="LoDIA" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-xl mb-2">LoDIA: A Global Dataset of Location Data Integrity-Assessed Reforestation Efforts</h3>
+          <p class="text-gray-600 text-sm">We  Propose a consolidated reforestation sites
+             dataset by compiling global reforestation efforts 
+             with location data integrity assessmentsindices. 
+             Submitted to a peer-reviewed journal, currently awaiting feedback.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
